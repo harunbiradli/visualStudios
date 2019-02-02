@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace resim_işleme_ve_kaydetme_1._0.Properties
+namespace resim_işleme.Properties
 {
 
 

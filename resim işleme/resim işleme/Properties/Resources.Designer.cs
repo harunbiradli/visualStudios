@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace resim_işleme_ve_kaydetme_1._0.Properties
+namespace resim_işleme.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace resim_işleme_ve_kaydetme_1._0.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("resim_işleme_ve_kaydetme_1._0.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("resim_işleme.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

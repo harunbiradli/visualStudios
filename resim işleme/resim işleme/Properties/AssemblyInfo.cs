@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("resim işleme ve kaydetme 1.0")]
+[assembly: AssemblyTitle("resim işleme")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("resim işleme ve kaydetme 1.0")]
+[assembly: AssemblyProduct("resim işleme")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1de5046c-e828-4145-964a-938edb3d3d7a")]
+[assembly: Guid("6f4b6946-ab11-4b6b-a1e6-f66661ee285b")]
 
 // Version information for an assembly consists of the following four values:
 //

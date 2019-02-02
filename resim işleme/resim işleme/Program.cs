@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace resim_işleme_ve_kaydetme_1._0
+namespace resim_işleme
 {
     static class Program
     {
