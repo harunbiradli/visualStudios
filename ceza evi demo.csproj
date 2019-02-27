@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A53A33F-B9E1-4749-971C-AAAAAFAE0461}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ceza_evi_demo</RootNamespace>
+    <AssemblyName>ceza evi demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gardiyan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gardiyan.Designer.cs">
+      <DependentUpon>gardiyan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="işlem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlem.Designer.cs">
+      <DependentUpon>işlem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="memur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memur.Designer.cs">
+      <DependentUpon>memur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="memurzkayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memurzkayıt.Designer.cs">
+      <DependentUpon>memurzkayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mkayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mkayıt.Designer.cs">
+      <DependentUpon>mkayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mtakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mtakip.Designer.cs">
+      <DependentUpon>mtakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="müdür.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="müdür.Designer.cs">
+      <DependentUpon>müdür.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pkayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pkayıt.Designer.cs">
+      <DependentUpon>pkayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ptakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ptakip.Designer.cs">
+      <DependentUpon>ptakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zkayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zkayıt.Designer.cs">
+      <DependentUpon>zkayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ztakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ztakip.Designer.cs">
+      <DependentUpon>ztakip.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gardiyan.resx">
+      <DependentUpon>gardiyan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlem.resx">
+      <DependentUpon>işlem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memur.resx">
+      <DependentUpon>memur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memurzkayıt.resx">
+      <DependentUpon>memurzkayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mkayıt.resx">
+      <DependentUpon>mkayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mtakip.resx">
+      <DependentUpon>mtakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="müdür.resx">
+      <DependentUpon>müdür.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pkayıt.resx">
+      <DependentUpon>pkayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ptakip.resx">
+      <DependentUpon>ptakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zkayıt.resx">
+      <DependentUpon>zkayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ztakip.resx">
+      <DependentUpon>ztakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giriş.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
